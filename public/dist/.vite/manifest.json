@@ -1,6 +1,6 @@
 {
-  "_vendor-DiGkiTvv.js": {
-    "file": "assets/vendor-DiGkiTvv.js",
+  "_vendor-U_tmfNOD.js": {
+    "file": "assets/vendor-U_tmfNOD.js",
     "name": "vendor"
   },
   "assets/logo.png": {
@@ -8,15 +8,15 @@
     "src": "assets/logo.png"
   },
   "main.js": {
-    "file": "assets/main-mM9qxmqB.js",
+    "file": "assets/main-B8mmncMD.js",
     "name": "main",
     "src": "main.js",
     "isEntry": true,
     "imports": [
-      "_vendor-DiGkiTvv.js"
+      "_vendor-U_tmfNOD.js"
     ],
     "css": [
-      "assets/main-Dbd7s5FY.css"
+      "assets/main-japho9DM.css"
     ],
     "assets": [
       "assets/logo-CPmPqqKk.png"

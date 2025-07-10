@@ -20,19 +20,11 @@ require_once __DIR__ . '/helpers.php';
 </head>
 
 <body>
-    <?= '<p class="message">PHP output here, potentially large HTML chunks</p>' ?>
-
-    <div class="vue-app">
-        <hello-world msg="header"></hello-world>
-    </div>
-
-    <?= '<p class="message">PHP output here, potentially large HTML chunks</p>' ?>
 
     <div class="vue-app">
         <hello-world msg="component"></hello-world>
     </div>
 
-    <?= '<p class="message">PHP output here, potentially large HTML chunks</p>' ?>
 </body>
 
 </html>
