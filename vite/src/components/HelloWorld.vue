@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-200 text-center p-10 h-screen">
+  <div id="template-container" class="text-center p-10 flex flex-col items-center justify-center text-slate-700">
     <img class="inline-flex" alt="Vue logo" :src="imgUrl" height="40" />
 
     <h1 class="text-6xl">{{ msg }}</h1>
@@ -34,10 +34,4 @@ const count = ref(0)
 </script>
 
 <style scoped>
-a {
-  color: #42b983;
-}
-body {
-  background-color: orange;
-}
 </style>
