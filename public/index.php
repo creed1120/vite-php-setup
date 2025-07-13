@@ -32,7 +32,6 @@ require_once __DIR__ . '/helpers.php';
             // Loadded from the "NewProduct.vue" component
             $newproduct = "The New Product";
         ?>
-
         <div id="product" data-newproduct="<?php echo htmlspecialchars($newproduct); ?>"></div>
         <div id="app" data-featureitem="<?php echo htmlspecialchars($featureitem); ?>"></div>
         <div id="user" data-username="<?php echo htmlspecialchars($username); ?>"></div>
