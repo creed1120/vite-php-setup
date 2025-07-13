@@ -75,6 +75,9 @@ export default defineConfig({
     // we need a strict port to match on PHP side
     // change freely, but update on PHP to match the same port
     // tip: choose a different port per project to run them at the same time
+    proxy: {
+      '/public/api': 'http://vite-php-setup.test', // Your PHP server
+    },
     strictPort: true,
     port: 5133,
     cors: {
